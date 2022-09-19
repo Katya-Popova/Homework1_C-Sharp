@@ -5,17 +5,21 @@
 // a = -9 b = -3 -> max = -3
 
 Console.WriteLine("Эта программа покажет какое число меньше, а какое больше");
-Console.Write("Введите первое число ");
+Console.Write("Введите первое число: ");
 int numberA = int.Parse(Console.ReadLine());
-Console.Write("Введите второе число ");
+Console.Write("Введите второе число: ");
 int numberB = int.Parse(Console.ReadLine());
 if (numberA > numberB)
 {
-    Console.WriteLine ("Наибольшее число " + numberA);
-    Console.WriteLine ("Наименьшее число " + numberB);
+    Console.WriteLine ("Наибольшее число: " + numberA);
+    Console.WriteLine ("Наименьшее число: " + numberB);
 }
-else
+if (numberA < numberB)
 {
-    Console.WriteLine ("Наибольшее число " + numberB);
-    Console.WriteLine ("Наименьшее число " + numberA);
+    Console.WriteLine ("Наибольшее число: " + numberB);
+    Console.WriteLine ("Наименьшее число: " + numberA);
+}
+if (numberA == numberB)
+{
+    Console.WriteLine ("Числа равны: " + numberB);
 }
