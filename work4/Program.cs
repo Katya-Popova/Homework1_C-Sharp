@@ -14,16 +14,21 @@ int numberB = int.Parse(Console.ReadLine());
 Console.Write("Введите третье число ");
 int numberC = int.Parse(Console.ReadLine());
 
-int numbermax = numberA;
+int numbermax = numberA ;
 
-if (numberA < numberB)
+if ((numberA > numberB) && (numberA > numberC))
 {
-     int numbermax = numberB;
+     numbermax = numberA;
 }
 
-else if (numbermax < numberC)
+else if ((numberB > numberC) && (numberB > numberA))
 {
-    int numbermax = numberC;
+     numbermax = numberB;
+}
+
+else if ((numberC > numberB) && (numberC > numberA))
+{
+     numbermax = numberC;
 }
 
 Console.WriteLine("Максимальное число из этих чисел " + numbermax);
