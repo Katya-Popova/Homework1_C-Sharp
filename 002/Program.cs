@@ -4,8 +4,11 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-int numberA = -9;
-int numberB = -3;
+Console.WriteLine("Эта программа покажет какое число меньше, а какое больше");
+Console.WriteLine("Введите первое число ");
+int numberA = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите второе число ");
+int numberB = int.Parse(Console.ReadLine());
 if (numberA > numberB)
 {
     Console.WriteLine ("Наибольшее число " + numberA);
