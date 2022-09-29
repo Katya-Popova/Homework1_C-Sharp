@@ -52,4 +52,6 @@ while (count <= number)
 }
 }
 
+Zadacha19();
 Zadacha21();
+Zadacha23();
