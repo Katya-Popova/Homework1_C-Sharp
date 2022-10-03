@@ -59,5 +59,7 @@ FillArray(array);
 PrintArray(array);
 
 }
+Zadacha25();
+Zadacha27();
 Zadacha29();
 
