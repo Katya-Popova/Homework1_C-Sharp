@@ -39,7 +39,7 @@ void PrintArray(int[] numbers)
 
 }
 
-//Zadacha41();
+Zadacha41();
 
 void Zadacha43()
 {
