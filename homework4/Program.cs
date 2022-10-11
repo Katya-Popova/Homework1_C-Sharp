@@ -11,7 +11,7 @@ while (count < number2)
     resultat = (resultat * number1);
     count++;
 }
-Console.WriteLine("Число " + number1 + " в степени " + " равна" + resultat);
+Console.WriteLine("Число " + number1 + " в степени " + " равна " + resultat);
 }
 
 void Zadacha27()
